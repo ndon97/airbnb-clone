@@ -1,4 +1,4 @@
-export default function Card(props) {
+export default function Card() {
   return (
     <div className="card">
       <img
@@ -8,7 +8,7 @@ export default function Card(props) {
       />
       <div className="card--stats">
         <img
-          src={require("../images/star.png")}
+          src={require("../imagess/star.png")}
           alt=""
           className="card--star"
         />
