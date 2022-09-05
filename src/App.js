@@ -9,6 +9,9 @@ export default function App() {
     <div>
       <Navbar />
       <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 }
