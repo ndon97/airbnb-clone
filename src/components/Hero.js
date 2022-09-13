@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <img
-        src="" //{require("../images/photo-grid.png")}
+        src={require("../images/photo-grid.webp")}
         alt=""
         className="hero--photo"
       />

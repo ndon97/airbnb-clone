@@ -9,7 +9,7 @@ export default function Card(props) {
     <div className="card">
       {badgeText && <div className="card--badge">{badgeText}</div>}
       <img
-        src={require(`../images/${props.img}`)}
+        src={require(`../images/${props.coverImg}`)}
         alt=""
         className="card--image"
       />
@@ -19,8 +19,8 @@ export default function Card(props) {
           alt=""
           className="card--star"
         />
-        <span>{props.rating}</span>
-        <span className="gray">({props.reviewCount}) • </span>
+        <span>{props.stats.rating}</span>
+        <span className="gray">({props.stats.reviewCount}) • </span>
         <span className="gray">{props.location}</span>
       </div>
       <p>{props.title}</p>
